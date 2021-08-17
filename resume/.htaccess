@@ -1,0 +1,11 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+
+RewriteRule    ^([A-Za-z0-9-]+)/?$    index.php     [NC,L] 
+  
+
+Options -Indexes
+
+
+
+
